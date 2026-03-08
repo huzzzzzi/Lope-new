@@ -1,0 +1,11 @@
+# Ignore heavy dependencies
+**/node_modules/
+
+# Ignore secret environment variables
+**/.env
+
+# Ignore uploaded user files (optional, but recommended)
+backend/uploads/
+
+# Ignore local Vite build files
+frontend/dist/

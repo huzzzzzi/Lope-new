@@ -1,0 +1,138 @@
+{
+  "_seq": {
+    "brands": 2,
+    "campaigns": 3,
+    "submissions": 4,
+    "stories": 1
+  },
+  "brands": [
+    {
+      "id": 1,
+      "name": "Demo Brand",
+      "email": "demo@lope.com",
+      "password_hash": "$2a$12$9iY382SFKic4G.BNhDY58eHU4NpjnvGuNwcMbmfTab8NnLOHX5tXW",
+      "created_at": "2026-03-05T01:45:23.263Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    },
+    {
+      "id": 2,
+      "name": "hello",
+      "email": "hello@nike.com",
+      "password_hash": "$2a$12$tLyjhKxIOJ/gX5aq93y4dOafLoLbQQiI9NhTkhD9p.r/s3K1faXBe",
+      "created_at": "2026-03-05T01:46:04.842Z",
+      "updated_at": "2026-03-05T01:46:04.842Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 1,
+      "brand_id": 1,
+      "name": "Summer Run 2025",
+      "description": "Share your best running moments!",
+      "slug": "summer-run-2025",
+      "status": "live",
+      "start_date": "2025-06-01",
+      "end_date": "2025-08-31",
+      "moderation_type": "manual",
+      "custom_fields": "[{\"id\":\"pace\",\"label\":\"Your pace?\",\"type\":\"text\",\"required\":false,\"placeholder\":\"5:30/km\"},{\"id\":\"location\",\"label\":\"Where did you run?\",\"type\":\"text\",\"required\":false,\"placeholder\":\"Central Park\"}]",
+      "cover_color": "#1c4a3b",
+      "created_at": "2026-03-05T01:45:23.265Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    },
+    {
+      "id": 2,
+      "brand_id": 1,
+      "name": "Win the Court",
+      "description": "Show us your best moves.",
+      "slug": "win-the-court",
+      "status": "live",
+      "start_date": "2025-05-10",
+      "end_date": "2025-07-15",
+      "moderation_type": "ai",
+      "custom_fields": "[]",
+      "cover_color": "#2d4fa8",
+      "created_at": "2026-03-05T01:45:23.265Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    },
+    {
+      "id": 3,
+      "brand_id": 1,
+      "name": "Just Flow — Yoga",
+      "description": null,
+      "slug": "just-flow-yoga",
+      "status": "ended",
+      "start_date": "2025-04-01",
+      "end_date": "2025-04-30",
+      "moderation_type": "auto",
+      "custom_fields": "[]",
+      "cover_color": "#7a3b8c",
+      "created_at": "2026-03-05T01:45:23.265Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": 1,
+      "campaign_id": 1,
+      "name": "Maria Kowalski",
+      "contact": "maria@gmail.com",
+      "message": "Best run ever!",
+      "custom_answers": "{\"pace\":\"4:42/km\",\"location\":\"Central Park\"}",
+      "media_url": "https://placehold.co/600x400/e6f2ee/1c4a3b?text=Summer+Run",
+      "media_type": "image",
+      "status": "approved",
+      "created_at": "2026-03-05T01:45:23.265Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    },
+    {
+      "id": 2,
+      "campaign_id": 1,
+      "name": "James Rivera",
+      "contact": "james@email.com",
+      "message": null,
+      "custom_answers": "{}",
+      "media_url": "https://placehold.co/600x400/fdf3dc/e8a838?text=Running",
+      "media_type": "image",
+      "status": "pending",
+      "created_at": "2026-03-05T01:45:23.265Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    },
+    {
+      "id": 3,
+      "campaign_id": 2,
+      "name": "Anya Bassi",
+      "contact": "+1 555 0123",
+      "message": null,
+      "custom_answers": "{}",
+      "media_url": "https://placehold.co/600x400/fff1f1/d64e2a?text=Court",
+      "media_type": "image",
+      "status": "pending",
+      "created_at": "2026-03-05T01:45:23.265Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    },
+    {
+      "id": 4,
+      "campaign_id": 1,
+      "name": "Sophie Chen",
+      "contact": "sophie@email.com",
+      "message": "Amazing!",
+      "custom_answers": "{\"pace\":\"5:10/km\",\"location\":\"Golden Gate Park\"}",
+      "media_url": "https://placehold.co/600x400/e6f2ee/1c4a3b?text=Run+2",
+      "media_type": "image",
+      "status": "pending",
+      "created_at": "2026-03-05T01:45:23.265Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "submission_id": 1,
+      "campaign_name": "Summer Run 2025",
+      "generated_media_url": "https://placehold.co/400x700/1c4a3b/ffffff?text=Story+%231",
+      "status": "completed",
+      "created_at": "2026-03-05T01:45:23.265Z",
+      "updated_at": "2026-03-05T01:45:23.265Z"
+    }
+  ]
+}
